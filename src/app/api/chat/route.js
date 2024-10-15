@@ -56,8 +56,8 @@ export async function POST(req) {
     const r1 = respuestas.replace(/【\d+:\d+†source】/g, '');
     const r2 = r1.replace(/```html/g, '');
     const reply =  r2.replace(/```/g, '');
-    console.log('respuestas ::::::::::::::::::::::::::::::::::::::::::::',reply)
-  /*   console.log('reply ::::::::::::::::::::::::::::::::::::::::::::',reply) */
+    
+    console.log('respuestas ::::::::::::::::::::::::::::::::::::::::::::',reply, mensaje)
 
     return new Response(JSON.stringify({ reply }), {
       status: 200,

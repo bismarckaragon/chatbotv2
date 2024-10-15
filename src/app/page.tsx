@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <div>
     <Head>
-      <title>Lecciones de CEO's</title>
+      <title>Lecciones de CEOs</title>
       <meta name="description" content="Aplicación web de Lecciones de CEO's" />
     </Head>
     <main>
-      <h1>Bienvenido al Chat de Lecciones de CEO's</h1>
+      <h1>Bienvenido al Chat de Lecciones de CEOs</h1>
       <Chat />
     </main>
     <style jsx>{`
