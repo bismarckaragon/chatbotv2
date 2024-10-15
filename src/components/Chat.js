@@ -1,7 +1,7 @@
 // components/Chat.js
 "use client";
 import { useState } from 'react';
-const assistantId = 'asst_EITiHgxEkAsCqQUoD84yzMOx';
+
 const Chat = () => {
   const [messages, setMessages] = useState([
     { sender: 'bot', text: '¡Hola! ¿En qué puedo ayudarte hoy?' },
